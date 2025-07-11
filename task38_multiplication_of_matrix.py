@@ -1,46 +1,49 @@
-n = int(input("Enter number of rows: "))
-m = int(input("Enter number of columns: "))
+
+n = int(input("Enter number of rows for Matrix A: "))
+m = int(input("Enter number of columns for Matrix A: "))
 
 matrix1 = []
-matrix2 = []
-
-print("\nEnter elements for Matrix 1:")
+print("\nEnter elements for Matrix A:")
 for i in range(n):
     row = []
     for j in range(m):
-        element = int(input(f"Matrix1 [{i+1}][{j+1}]: "))
+        element = int(input(f"A[{i+1}][{j+1}]: "))
         row.append(element)
     matrix1.append(row)
 
+p = int(input("\nEnter number of columns for Matrix B: "))
 
-x = int(input("Enter number of rows: "))
-y = int(input("Enter number of columns: "))
 
-print("\nEnter elements for Matrix 2:")
-for i in range(x):
+matrix2 = []
+print("\nEnter elements for Matrix B:")
+for i in range(m):  
     row = []
-    for j in range(y):
-        element = int(input(f"Matrix2 [{i+1}][{j+1}]: "))
+    for j in range(p):
+        element = int(input(f"B[{i+1}][{j+1}]: "))
         row.append(element)
     matrix2.append(row)
 
 
-matrix3 = []
-for i in range(n):  
+result = []
+for i in range(n):
     new_row = []
-    for j in range(y): 
-        new_row.append((matrix1[i][j] * matrix2[i][j]) + (matrix1[i + 1][j] * matrix2[i][j + 1]))
-    matrix3.append(new_row)
+    for j in range(p):
+        cell_sum = 0
+        for k in range(m):
+            cell_sum += matrix1[i][k] * matrix2[k][j]
+        new_row.append(cell_sum)
+    result.append(new_row)
 
 
-print("\nMatrix 1:")
+print("\nMatrix A:")
 for row in matrix1:
     print(row)
 
-print("\nMatrix 2:")
+print("\nMatrix B:")
 for row in matrix2:
     print(row)
 
-print("\nMultiplied Matrix:")
-for row in matrix3:
+print("\nResultant Matrix (A x B):")
+for row in result:
     print(row)
+
