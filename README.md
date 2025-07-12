@@ -22,41 +22,39 @@ dsa-python-tasks/
 ├── phase2_matrices/         # Task 26–50 (2D Arrays, Matrices)
 ├── phase3_recursion/        # Task 51 onwards (To be created soon)
 └── README.md
+````
+🔧 How to Use
+Each file is named according to its task, e.g., task03_min_element.py
 
-Feel free to ⭐ the repo if you're learning DSA too!
+Run files individually to test logic
 
----
+Most programs use input() — be ready to enter values during execution
 
-Let me know when you’ve organized the folders so we can update this accordingly.
+🚀 What's Next
+✅ Completed Phase 1 and Phase 2
 
+🔜 Start Phase 3: Recursion + LeetCode Easy on 13th July 2025
 
----
+📌 Future plans:
 
-## 🔧 How to Use
+Linked Lists, Stacks, Queues
 
-- Each file is named according to its task, e.g., `task03_min_element.py`
-- Run files individually to test logic
-- Most programs use `input()` — be ready to enter values during execution
+Trees, Graphs, Dynamic Programming
 
----
+System Design + AI/ML Projects (2026+)
 
-## 🚀 What's Next
+👨‍💻 Author
+Jayesh Khandelwal
+GitHub: @itsjayeshk
 
-- ✅ Completed Phase 1 and Phase 2
-- 🔜 Start **Phase 3: Recursion + LeetCode Easy** on **13th July 2025**
-- 📌 Future plans:
-  - Linked Lists, Stacks, Queues
-  - Trees, Graphs, Dynamic Programming
-  - System Design + AI/ML Projects (2026+)
+⭐ Star this repo if you're also on a DSA grind!
 
----
-
-## 👨‍💻 Author
-
-**Jayesh Khandelwal**  
-GitHub: [@itsjayeshk](https://github.com/itsjayeshk)
+yaml
+Copy
+Edit
 
 ---
 
-⭐ *Star this repo if you're also on a DSA grind!*
+✅ Paste this in your GitHub `README.md` → **Commit** → You’re done!
 
+Let me know once you’re ready to plan **Phase 3**.
