@@ -28,3 +28,35 @@ Feel free to ⭐ the repo if you're learning DSA too!
 ---
 
 Let me know when you’ve organized the folders so we can update this accordingly.
+
+
+---
+
+## 🔧 How to Use
+
+- Each file is named according to its task, e.g., `task03_min_element.py`
+- Run files individually to test logic
+- Most programs use `input()` — be ready to enter values during execution
+
+---
+
+## 🚀 What's Next
+
+- ✅ Completed Phase 1 and Phase 2
+- 🔜 Start **Phase 3: Recursion + LeetCode Easy** on **13th July 2025**
+- 📌 Future plans:
+  - Linked Lists, Stacks, Queues
+  - Trees, Graphs, Dynamic Programming
+  - System Design + AI/ML Projects (2026+)
+
+---
+
+## 👨‍💻 Author
+
+**Jayesh Khandelwal**  
+GitHub: [@itsjayeshk](https://github.com/itsjayeshk)
+
+---
+
+⭐ *Star this repo if you're also on a DSA grind!*
+
