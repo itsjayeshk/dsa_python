@@ -1,4 +1,3 @@
-﻿# DSA Programs
 # 🧠 DSA Programs in Python
 
 All Python programs completed as part of my Data Structures and Algorithms (DSA) learning journey.
@@ -11,43 +10,18 @@ All Python programs completed as part of my Data Structures and Algorithms (DSA)
 |-------|-----------------------------------------|--------------|--------------|
 | 1     | Arrays, Numbers, Basic Loops            | Task 1 - 25  | ✅ Completed |
 | 2     | Matrices, 2D Arrays                     | Task 26 - 50 | ✅ Completed |
-| 3     | Recursion, LeetCode Easy (Coming soon)  | Task 51+     | 🔜 Starting 13th July |
+| 3     | Recursion, LeetCode Easy (Coming soon)  | Task 51+     | 🔜 Starting 13th July 2025 |
 
 ---
 
-## 📁 Folder Structure (Soon to be organized)
+## 📁 Folder Structure
 
 ```bash
 dsa-python-tasks/
-├── phase1_basics/           # Task 1–25
-├── phase2_matrices/         # Task 26–50
-├── phase3_recursion/        # Task 51 onwards
+├── phase1_basics/           # Task 1–25 (Arrays, Loops, Digits, etc.)
+├── phase2_matrices/         # Task 26–50 (2D Arrays, Matrices)
+├── phase3_recursion/        # Task 51 onwards (To be created soon)
 └── README.md
-```
-
----
-
-## 🔧 How to Use
-- Each file is named according to its task, e.g., `task03_min_element.py`.
-- Run files individually to test logic.
-- Most programs use `input()` — be ready to enter values during execution.
-
----
-
-## 🚀 What’s Next
-- Start **Phase 3: Recursion + LeetCode Easy** on **13th July 2025**
-- Future goals include:
-  - Linked Lists, Stacks, Queues
-  - Trees, Graphs, DP
-  - System Design + AI/ML Projects
-
----
-
-## 👨‍💻 Author
-**Jayesh Khandelwal**  
-GitHub: [itsjayeshk](https://github.com/itsjayeshk)
-
----
 
 Feel free to ⭐ the repo if you're learning DSA too!
 
