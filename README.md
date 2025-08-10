@@ -2,18 +2,8 @@
 
 All Python programs completed as part of my Data Structures and Algorithms (DSA) learning journey.
 
----
 
-## ✅ Progress Tracker
 
-| Phase | Topics Covered                          | Tasks        | Status       |
-|-------|-----------------------------------------|--------------|--------------|
-| 1     | Arrays, Numbers, Basic Loops            | Task 1 - 25  | ✅ Completed |
-| 2     | Matrices, 2D Arrays                     | Task 26 - 50 | ✅ Completed |
-| 3     | Recursion, LeetCode Easy                | Task 51 - 80 | ✅ Completed |
-| 4     | LeetCode Easy (Upcoming)                | Task 80+  | 🔜 Starting 15th July 2025 |
-
----
 
 ## 📁 Folder Structure
 
