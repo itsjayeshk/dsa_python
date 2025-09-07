@@ -1,0 +1,10 @@
+def fibonacci(n):
+    if n <= 0:
+        return "Invalid input"
+    elif n == 1:
+        return 0
+    elif n == 2:
+        return 1
+    return fibonacci(n - 1) + fibonacci(n - 2)
+n = int(input("Enter the position (n): "))
+print(f"Fibonacci number at position {n} is:", fibonacci(n))
